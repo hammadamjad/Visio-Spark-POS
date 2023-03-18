@@ -1,0 +1,55 @@
+/* typography */
+
+.h1 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.body-large-regular {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.body-normal-medium {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.body-normal-regular {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+}
+
+/* colors */
+.dark-bg-1 {
+    background-color: #252836;
+}
+
+.dark-bg-2 {
+    background-color: #1F1D2B;
+}
+
+.white {
+    color: #FFF;
+}
+
+.text-lighter {
+    color: #E0E6E9;
+}
+.text-light {
+    color: #ABBBC2;
+}
