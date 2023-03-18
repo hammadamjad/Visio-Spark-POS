@@ -5,10 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import './utils.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
 
-import 'bootstrap/dist/js/bootstrap.min.js';
+import "bootstrap/dist/js/bootstrap.min.js";

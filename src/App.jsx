@@ -1,10 +1,13 @@
-import './App.css'
-import Home from './pages/Home'
+import SideBar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <Home />
-  )
+    <div className="App">
+      <SideBar />
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;
