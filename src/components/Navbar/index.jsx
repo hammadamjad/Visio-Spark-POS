@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 const SideBar = () => {
   return (
-    <div className="sidebar-main d-flex flex-column justify-content-evenly align-items-center">
+    <div className="sidebar-main d-flex flex-column justify-content-evenly align-items-center px-4">
       <img src="/public/Logo.svg" />
       <div className="menu d-flex flex-column justify-content-between align-items-center">
         <a href="#">
