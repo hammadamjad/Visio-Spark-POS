@@ -1,3 +1,7 @@
+.border-light {
+    border-color: #393C49 !important;
+}
+
 /* typography */
 
 .h1 {
@@ -5,6 +9,14 @@
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
+    line-height: 140%;
+}
+
+.h2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 140%;
 }
 
@@ -25,6 +37,14 @@
     text-align: center;
 }
 
+.body-small-medium {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+}
+
 .body-normal-regular {
     font-family: 'Barlow';
     font-style: normal;
@@ -32,6 +52,14 @@
     font-size: 14px;
     line-height: 140%;
     text-align: center;
+}
+
+.body-normal-semibold {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
 }
 
 /* colors */
@@ -43,6 +71,10 @@
     background-color: #1F1D2B;
 }
 
+.form-bg {
+    background-color: #1F1D2B;
+}
+
 .white {
     color: #FFF;
 }
@@ -50,6 +82,7 @@
 .text-lighter {
     color: #E0E6E9;
 }
+
 .text-light {
     color: #ABBBC2;
 }

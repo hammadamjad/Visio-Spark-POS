@@ -9,6 +9,7 @@ const Product = ({ product }) => {
         <div className="body-normal-medium white">{product.name}</div>
         <div className="body-normal-regular white">${product.price}</div>
         <div className="body-normal-regular text-light">{product.quantity} bowls available</div>
+        
     </div>
   )
 }
