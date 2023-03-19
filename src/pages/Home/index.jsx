@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import SideBar from "../../components/Navbar";
 import OrderProduct from "../../components/OrderProduct";
 import Product from "../../components/Product";
 import styles from "./style.module.css";
@@ -139,7 +140,10 @@ const Home = () => {
   }, [orders]);
 
   return (
-    <>
+    <div className="d-flex" style={{
+      height: '100vh'
+    }}>
+      <SideBar />
       <div className={`${styles.container} dark-bg-1 p-5 col-8`}>
         <div className="row">
           <div className="col-8">
@@ -200,7 +204,7 @@ const Home = () => {
           <div className="white">Total: {total}</div>
           <button className="btn btn-primary px-5 mt-5">Pay</button>
       </div>
-    </>
+    </div>
   );
 };
 

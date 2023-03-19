@@ -1,11 +1,11 @@
 import SideBar from "./components/Navbar";
-import Home from "./pages/Home";
+import "./index.css";
+import Dashboard from "./pages/Dashboard/Index";
 
 function App() {
   return (
-    <div className="App">
-      <SideBar />
-      <Home />
+    <div className="app">
+      <Dashboard />
     </div>
   );
 }
